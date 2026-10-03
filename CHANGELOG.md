@@ -3,6 +3,7 @@
 Newest first. Times are ET.
 
 ## 2026-10-03
+- 14:41 ET: Purple bargain icon (pins, groups, Map key, Deals pill); bottom Top 10 pills show exactly 3 whole buttons and snap one button or one page at a time; right-side filter buttons scroll with the mouse wheel and wheel events over them no longer zoom the map
 - 14:09 ET: Add ski areas and notable mountain peaks layers: ski/peak icons, cards with trails, lifts, vertical, snowfall, season, ticket and pass prices (season + source labeled), discounts, special days; peaks with elevation, prominence, activities, estimated summit weather; Ski and Peaks solo buttons, Map key, zoom tiers, share links #ski= / #peak=
 - 13:39 ET: Phase 4: 56 attractions (24 state-park campgrounds, 29 museums, ECHO aquarium, VINS raptor center, Jay Peak Pump House indoor water park), 7 airports (BTV, RUT + PBG, LEB, ALB, MHT, BOS), 13 businesses for sale under $1M (Crexi, hand-reviewed; no odd buildings under $600k listed), waterfalls and hiking trails (Wikidata + Wikipedia + OSM Nominatim)
 - 13:32 ET: Phase 3: jobs - 204 permanent RN jobs (163 pass the default filter; 102 list pay, 32 a sign-on bonus) from UVM Health (Workday), Dartmouth Health SVMC + Mt. Ascutney, Gifford, Rutland Regional (HealthcareSource), Brattleboro, Springfield, Grace Cottage (Paylocity), Northwestern (UKG Pro), Copley (iCIMS); 98 travel RN jobs at 11 hospitals (Vivian + Advantis; same OR/cath/OB/NICU/peds exclusions). North Country and NVRH not collected (block automated browsers).
