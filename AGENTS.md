@@ -22,3 +22,15 @@ Live: https://unclebill-spec.github.io/vermont-explorer/ · repo unclebill-spec/
 - Hospitals: `data/hospitals.json` research (14) + CMS + 11 NH, 2 MA (Baystate I, Berkshire III) and Albany Med (NY I) border centers. UVM Medical Center is Vermont's only ACS-verified trauma center (Level I).
 - Parks etc. come from Wikidata, not OSM (Overpass unreachable from the box in Oct 2026).
 - Home searches use the KY default caps ($300k–$500k 5+ acres, $425k 1+ acre, $325k near-hospital); no `STATE["caps"]`, no cabin category (Bill, Oct 3 2026). Ask Bill before raising them.
+
+## Phases 2-4 (Oct 3, 2026)
+- Homes: `scripts/vt_zsearch.py` (Zillow county searches at the KY caps; stops at the first block) -> `data/zsearch/`; `scripts/vt_er_beds.py` (ER size estimates: acute non-critical-access hospitals with a 24/7 ER) -> `data/hospital_er_beds.json`; `scripts/vt_listings_build.py` -> `/workspace/vermont/listings.json` + `listing-photos/`. `scripts/bargains.py` uses per-category KY caps. Test: `perf/test_homes.py BASE TAG` (no cabin anywhere).
+- Permanent RN jobs: `scripts/vt_perm_jobs.py` -> `data/perm_jobs.json` (UVM Health Workday EXTERNAL/CVMC/Porter; HealthcareSource svhealthcare, dhamtascutney, giffordhealthcare, rrmc; Paylocity BMH/Springfield/Grace Cottage; UKG Pro Northwestern; iCIMS careers-chsi = Copley). North Country + NVRH block automated browsers. Test: `perf/test_perm.py BASE TAG` (Rutland).
+- Travel jobs: fetch helpers in `/workspace/tj_vt` (viv_fetch/viv_parse/adv_fetch/adv_detail), then `scripts/vt_travel_jobs.py` -> `data/travel_jobs.json`.
+- Phase 4: `data/attractions/make_attractions.py` (+ `wd2.py` Wikidata museums), `data/airports/airports.py`, `data/forsale/{crexi_list.py, vt_forsale.py (HAND_DROP/RELABEL), make_forsale.py}`, `data/osm/wp_cat_act.py` (restore `data/osm/wd/act_*.bak.json` before rerunning). Test: `perf/test_p4.py BASE TAG`.
+- Before every build/publish: `scripts/sync_shared.sh` (shared app files come from /workspace/kentucky/explorer; other workers edit them).
+
+## Ski areas + notable peaks (Oct 3, 2026)
+34 ski areas and 36 peaks, from explorer/mtn.json and explorer/img/mtn/. These are shared app files from KY; full notes are in /workspace/kentucky/explorer/AGENTS.md.
+- build.py has the mtn_build hook (`mtn_build.add(data)` before `write_split`, then `mtn_build.write_detail(OUT)`). Keep it if build.py is regenerated, or rerun `/workspace/mtn/scripts/hook_build.py /workspace/vermont`.
+- Rebuild the data with `/workspace/mtn/scripts/make_state.py VT`. Test with `/workspace/mtn/test_mtn.py BASE TAG SKI_ID PEAK_ID`.
