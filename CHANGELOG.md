@@ -3,6 +3,7 @@
 Newest first. Times are ET.
 
 ## 2026-10-03
+- 15:40 ET: Border items: pins up to ~15 mi outside the state line that meet this map's own criteria, from Massachusetts (homes, jobs, hospitals, graded schools...) plus New Hampshire, New York and Québec. Same icons, filters, Top 10s and share links; each card is tagged with its state; county/town stats and appeal scores unchanged (explorer/border.json, shared border_build.py + build.py hook + app.js/style.css)
 - 14:41 ET: Purple bargain icon (pins, groups, Map key, Deals pill); bottom Top 10 pills show exactly 3 whole buttons and snap one button or one page at a time; right-side filter buttons scroll with the mouse wheel and wheel events over them no longer zoom the map
 - 14:09 ET: Add ski areas and notable mountain peaks layers: ski/peak icons, cards with trails, lifts, vertical, snowfall, season, ticket and pass prices (season + source labeled), discounts, special days; peaks with elevation, prominence, activities, estimated summit weather; Ski and Peaks solo buttons, Map key, zoom tiers, share links #ski= / #peak=
 - 13:39 ET: Phase 4: 56 attractions (24 state-park campgrounds, 29 museums, ECHO aquarium, VINS raptor center, Jay Peak Pump House indoor water park), 7 airports (BTV, RUT + PBG, LEB, ALB, MHT, BOS), 13 businesses for sale under $1M (Crexi, hand-reviewed; no odd buildings under $600k listed), waterfalls and hiking trails (Wikidata + Wikipedia + OSM Nominatim)

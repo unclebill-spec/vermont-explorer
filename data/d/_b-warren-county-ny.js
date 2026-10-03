@@ -1,0 +1,1 @@
+KYXD("_b-warren-county-ny",{"school":{"bny-s360501000240":{"addr":"26 Horicon Ave","phone":"(518) 644-2400","grades":"PK–12","level":"Other","nces":"360501000240","levels":{},"bst":"NY","bmi":11.4,"bco":"Warren County, NY","src":"NCES Common Core of Data 2024-2025 (school directory; no state grade on this map)"}}});

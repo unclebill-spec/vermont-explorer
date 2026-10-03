@@ -34,3 +34,6 @@ Live: https://unclebill-spec.github.io/vermont-explorer/ · repo unclebill-spec/
 34 ski areas and 36 peaks, from explorer/mtn.json and explorer/img/mtn/. These are shared app files from KY; full notes are in /workspace/kentucky/explorer/AGENTS.md.
 - build.py has the mtn_build hook (`mtn_build.add(data)` before `write_split`, then `mtn_build.write_detail(OUT)`). Keep it if build.py is regenerated, or rerun `/workspace/mtn/scripts/hook_build.py /workspace/vermont`.
 - Rebuild the data with `/workspace/mtn/scripts/make_state.py VT`. Test with `/workspace/mtn/test_mtn.py BASE TAG SKI_ID PEAK_ID`.
+
+## Border items (Oct 3, 2026)
+`explorer/border.json` (from /workspace/border/scripts/make_border.py) adds pins within ~15 mi outside the state line, tagged with their state (`bst`), excluded from town/county stats. Shared code: border_build.py + build.py hook + app.js. Details and regeneration: KY explorer/AGENTS.md 'Border items'.

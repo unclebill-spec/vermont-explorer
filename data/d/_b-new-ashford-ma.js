@@ -1,0 +1,1 @@
+KYXD("_b-new-ashford-ma",{"activity":{"bma-mount-greylock-state-reservation-new-ashford":{"web":"https://www.mass.gov/locations/mount-greylock-state-reservation","desc":"forest preserve in Massachusetts","wiki":"en:Mount Greylock State Reservation","src":"http://www.wikidata.org/entity/Q6920991","bst":"MA","bmi":9.8,"bco":"New Ashford, MA"}}});
