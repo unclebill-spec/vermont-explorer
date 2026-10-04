@@ -1,0 +1,1 @@
+KYXD("_b-washington-nh",{"activity":{"bnh-ashuelot-pond-dam-washington":{"src":"http://www.wikidata.org/entity/Q34803252","th":{"u":"img/b/nh/thumbs/activity/ashuelot-pond-dam-washington.jpg","k":"satellite"},"bst":"NH","bmi":14.1,"bco":"Washington, NH"}}});
