@@ -3,6 +3,7 @@
 Newest first. Times are ET.
 
 ## 2026-10-04
+- 16:18 ET: Border: caves and waterfalls on the property from neighboring states (bat / waterfall pins)
 - 15:29 ET: Caves and waterfalls on the property: flying-bat and waterfall pins + groups, 'Cave' and 'Falls' buttons, Map key, card with the listing's own words, acres, price and Nearby
 - 10:58 ET: 50+ acre lots under $250k (land or home): small black star pins + groups, '50+ ac' button, Map key row, card with acres, $/acre, dwelling and Nearby; border listings too
 - 08:08 ET: State switcher: shrinks and scrolls sideways on narrow phones (10 maps)
