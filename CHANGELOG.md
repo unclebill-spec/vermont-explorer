@@ -2,6 +2,9 @@
 
 Newest first. Times are ET.
 
+## 2026-10-07
+- 17:10 ET: Listings refresh: +14 new, -6 off-market, 10 price drops; waterfalls 6 -> 7 (+Lyndonville); 50+ ac 34; bargains refreshed (5 in, 5 out); 201 perm RN jobs (2026-10-07)
+
 ## 2026-10-05
 - 23:08 ET: Add North Carolina to the state switcher (new North Carolina Explorer); shared Anna code: per-state wording + estimated-pay labels
 
